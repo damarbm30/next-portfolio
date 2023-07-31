@@ -31,9 +31,9 @@ export default function About() {
         a software developer.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and reading
-        some articles. I also enjoy <span className="font-medium">learning new things</span>. I'm currently learning for
-        Next.js 13 and TypeScript.
+        <span className="italic">When I&apos;m not coding</span>, I enjoy playing video games, watching movies, and
+        reading some articles. I also enjoy <span className="font-medium">learning new things</span>. I&apos;m currently
+        learning for Next.js 13 and TypeScript.
       </p>
     </motion.section>
   );
