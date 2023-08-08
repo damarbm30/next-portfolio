@@ -65,7 +65,7 @@ export const projectsData = [
       "Contain a list of pesantren in Special Region of Yogyakarta to help users find pesantren that matches their needs and preferences.",
     tags: ["React.js", "Tailwind CSS", "React Redux", "Redux Toolkit"],
     imageUrl: damparan,
-    url: "https://damparan.id",
+    url: "http://damparan.id",
   },
   {
     title: "Tanya Kiai",
