@@ -7,6 +7,7 @@ import carRentalAdmin from "/public/car-rental-admin.jpg";
 import carRentalUser from "/public/car-rental-user.jpg";
 import dikata from "/public/dikata.jpg";
 import tanyaKiai from "/public/tanya-kiai.jpg";
+import damparan from "/public/damparan.jpg";
 
 export const links = [
   {
@@ -59,9 +60,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Car Rental User",
+    title: "Damparan",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Contain a list of pesantren in Special Region of Yogyakarta to help users find pesantren that matches their needs and preferences.",
+    tags: ["React.js", "Tailwind CSS", "React Redux", "Redux Toolkit"],
+    imageUrl: damparan,
+    url: "https://damparan.id",
+  },
+  {
+    title: "Tanya Kiai",
+    description: "A public web app to do QnA about Islam.",
+    tags: ["React.js", "Tailwind CSS", "Framer Motion", "Context API", "Google OAuth"],
+    imageUrl: tanyaKiai,
+    url: "https://tanyakiai.id",
+  },
+  {
+    title: "Car Rental User",
+    description: "A page to promote your car rental business.",
     tags: ["React.js", "Bootstrap", "Material UI", "Zustand"],
     imageUrl: carRentalUser,
     url: "https://bcr-platinum-user.vercel.app",
@@ -69,26 +84,17 @@ export const projectsData = [
   {
     title: "Car Rental Admin",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Dashboard with table and charts to show orders count with create, edit, and delete functionality to manage cars data.",
     tags: ["React.js", "Bootstrap", "Material UI", "Zustand"],
     imageUrl: carRentalAdmin,
     url: "https://bcr-platinum-admin.vercel.app",
   },
   {
     title: "Dikata",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    description: "A landing page for an educational organization which engages in literation awareness.",
     tags: ["React.js", "Tailwind CSS", "Framer Motion"],
     imageUrl: dikata,
     url: "https://dikata.netlify.app",
-  },
-  {
-    title: "Tanya Kiai",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React.js", "Tailwind CSS", "Framer Motion", "Context API", "Google OAuth"],
-    imageUrl: tanyaKiai,
-    url: "https://tanyakiai.id",
   },
 ] as const;
 
