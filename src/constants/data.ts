@@ -51,10 +51,17 @@ export const experiencesData = [
   {
     title: "Front-End Engineer Bootcamp",
     location: "Binar Academy - Online",
-    description:
-      "Graduated after 4 months of studying. I immediately found a job as a front-end developer. Learned a lot about CSS, JavaScript, and React.js.",
+    description: "Graduated after 4 months of studying. Learned a lot about CSS, JavaScript, and React.js.",
     icon: React.createElement(LuGraduationCap),
     date: "December 2022 - April 2023",
+  },
+  {
+    title: "Front-End Engineer",
+    location: "PT Widya Intelektual Bangsa - Sleman, Indonesia",
+    description:
+      "Developed websites using Vue.js, React.js and Next.js. Collaborate with cross-functional teams, including UX/UI designers and backend developers",
+    icon: React.createElement(CgWorkAlt),
+    date: "August 2023 - Now",
   },
 ] as const;
 
