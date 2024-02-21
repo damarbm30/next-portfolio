@@ -36,7 +36,8 @@ export const experiencesData = [
   {
     title: "Intern Front-End Developer",
     location: "Dikata - Online",
-    description: "Creating landing page using React.js and Tailwind CSS for mobile interface only.",
+    description:
+      "Creating landing page using React.js and Tailwind CSS for mobile interface only.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2022 - August 2022",
   },
@@ -51,7 +52,8 @@ export const experiencesData = [
   {
     title: "Front-End Engineer Bootcamp",
     location: "Binar Academy - Online",
-    description: "Graduated after 4 months of studying. Learned a lot about CSS, JavaScript, and React.js.",
+    description:
+      "Graduated after 4 months of studying. Learned a lot about CSS, JavaScript, and React.js.",
     icon: React.createElement(LuGraduationCap),
     date: "December 2022 - April 2023",
   },
@@ -72,12 +74,18 @@ export const projectsData = [
       "Contain a list of pesantren in Special Region of Yogyakarta to help users find pesantren that matches their needs and preferences.",
     tags: ["React.js", "Tailwind CSS", "React Redux", "Redux Toolkit"],
     imageUrl: damparan,
-    url: "http://damparan.id",
+    url: "https://pesantrenjogja.com",
   },
   {
     title: "Tanya Kiai",
     description: "A public web app to do QnA about Islam.",
-    tags: ["React.js", "Tailwind CSS", "Framer Motion", "Context API", "Google OAuth"],
+    tags: [
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Context API",
+      "Google OAuth",
+    ],
     imageUrl: tanyaKiai,
     url: "https://tanyakiai.id",
   },
@@ -98,7 +106,8 @@ export const projectsData = [
   },
   {
     title: "Dikata",
-    description: "A landing page for an educational organization which engages in literation awareness.",
+    description:
+      "A landing page for an educational organization which engages in literation awareness.",
     tags: ["React.js", "Tailwind CSS", "Framer Motion"],
     imageUrl: dikata,
     url: "https://dikata.netlify.app",
